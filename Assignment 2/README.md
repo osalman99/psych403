@@ -117,7 +117,7 @@ print(type(about_me))
 # 2. Yes, the file type is dict. 
 
 print(len(about_me)) 
-# 3. Yes, Python can determine the length of the dictionary about_me is 4 items. 
+# 3. Yes, Python can determine the length of the dictionary about_me is 4 items by looking at the key value pairs. 
 
 # Array exercises
 import numpy as np
