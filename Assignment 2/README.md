@@ -113,7 +113,7 @@ print(list(intlist)) # 5.
 # 1.
 about_me = {0 : 'Omar Salman', 1 : 22.0, 2 : 4, 3 : 'Pizza' } 
  
-print(about_me) 
+print(type(about_me)) 
 # 2. Yes, the file type is dict. 
 
 print(len(about_me)) 
