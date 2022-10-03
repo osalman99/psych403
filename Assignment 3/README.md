@@ -2,7 +2,7 @@
 
 # Variable operations exercises
 
-# 1 
+# 1. 
 sub_code = 'sub' 
 subnr_int = 2
 sub_str = '2'
@@ -11,25 +11,25 @@ print(sub_code + subnr_int)
 # You can only add two of the same type variables (i.e., a string cannot be concatenated with an integer, rather you can only concatenate a str to str).
 print(sub_code + sub_str)
 
-# 2
-print(sub_code + sub_str)
-print(sub_code + sub_str*3)
+# 2.
+print(sub_code + " " + sub_str)
+print(sub_code + " " + sub_str*3)
 print((sub_code + sub_str)*3)
 print(sub_code*3 + sub_str*3)
 
 # List operations exercises 
 
-# 1
+# 1.
 numlist = [1,2,3]
 print (numlist*2)
 
-# 2
+# 2.
 import numpy as np
 numarr = np.array([1,2,3])
 print(numarr*2) 
 # Comparing multiplying arrays and lists: multplying arrays causes each value in the array being multipled by the specific multiplier ; where multiplying a list yeilds replicating the list in its entirety proportonal to the multiplier. 
 
-# 3 
+# 3. 
 strlist = ['do', 're', 'mi', 'fa']
 print([strlist[0]*2] + [strlist[1]*2] + [strlist[2]*2] + [strlist[3]*2])
 
@@ -70,16 +70,16 @@ print(catimgs)
 
 # Indexing exercises
 
-# 1 
+# 1. 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 
-# 2
+# 2.
 print(colors[-1])
 
-# 3
+# 3.
 print(colors[-3:-5:-1])
 
-# 4 
+# 4. 
 colors.remove('purple')
 colors.append('indigo')
 colors.append('violet')
@@ -87,19 +87,19 @@ print(colors)
 
 # Slicing exercises
 
-# 1 
+# 1. 
 list100 = list(range(101))
 
-# 2
+# 2.
 print(list100[0:10])
 
-# 3
+# 3.
 print(list100[99::-2])
 
-# 4 
+# 4. 
 print(list100[:96:-1])
 
-# 5
+# 5.
 thtoth = list100[40:44]
 print(thtoth)
 int_3943 = list(range(39,43))
