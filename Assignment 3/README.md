@@ -31,15 +31,13 @@ print(numarr*2)
 
 # 3. 
 strlist = ['do', 're', 'mi', 'fa']
+
 print([strlist[0]*2] + [strlist[1]*2] + [strlist[2]*2] + [strlist[3]*2])
 
-strlist = ['do', 're', 'mi', 'fa']
 print(strlist*2) 
 
-strlist = ['do', 're', 'mi', 'fa']
 print(strlist[0:1]*2 + strlist[1:2]*2 + strlist[2:3]*2 + strlist[3:4]*2)
-
-strlist = ['do', 're', 'mi', 'fa'] 
+ 
 print([strlist[0:1]*2, strlist[1:2]*2, strlist[2:3]*2, strlist[3:4]*2])
 
 # Zipping exercises  
