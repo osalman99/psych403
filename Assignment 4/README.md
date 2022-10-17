@@ -3,19 +3,15 @@
 # Conditional exercises 
 
 # 1. 
-
 response = ['1', '2', 'NaN']
 
 if response == "1" or response == "2":
-  
-  print("OK")
+   print("OK")
   
 elif response == 'Nan':
-  
   print("subject did not respond")
   
 else:
-  
   print("subject pressed the wrong key")
 
     
