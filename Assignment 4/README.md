@@ -7,7 +7,7 @@ response = ['1', '2', 'NaN']
 
 if response == "1" or response == "2":
    print("OK")
-  
+   
 elif response == 'Nan':
   print("subject did not respond")
   
@@ -16,25 +16,20 @@ else:
 
     
 # 2. 
-
 response = '1'
 
 if response == "1" or response == "2":
   
     if response == '1':
-      
       print('Correct!')
   
     elif response == '2':
-      
       print('Incorrect!')
 
 elif response == 'NaN':
-    
     print('subject did not respond')
 
 else:
-    
     print("subject pressed the wrong key")
 
 # 3. Yes,  the scripted went the scritp as I expected it to and outputs the what is asked in the previous parts. 
@@ -45,6 +40,7 @@ else:
 # 1. 
 
 name = 'Omar'
+
 for nm in name:
     print(nm)
     
