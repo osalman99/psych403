@@ -60,6 +60,7 @@ stim_dur = 1
 #-start message text *
 strM = 'This is a Psychology experiment. If you are ready to start hit the ENTER key.'
 print(strM)
+
 #=====================
 #PREPARE CONDITION LISTS
 #=====================
