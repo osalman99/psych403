@@ -48,8 +48,7 @@ ntrials = 10
 nblocks = 2
 
 #-stimulus names (and stimulus extensions, if images) *
-stim_n = ['stim1', 'stim2', 'stim3', 'stim4', 'stim5', 
-'stim6', 'stim7', 'stim8', 'stim9', 'stim10'] 
+stim_n = ['stim1', 'stim2', 'stim3', 'stim4', 'stim5', 'stim6', 'stim7', 'stim8', 'stim9', 'stim10'] 
 if stim_n == ['stim1', 'stim2', 'stim3', 'stim4', 'stim5', 'stim6', 'stim7', 'stim8', 'stim9', 'stim10']:
 	image = stim_n + '.png'
 
@@ -78,8 +77,7 @@ for image in os.listdir(image_direc):
 
 #-create counterbalanced list of all conditions *
 stims = ['stim']*10
-imgs = ['img1.png', 'img2.png', 'img3.png', 'img4.png', 'img5.png', 
-'img6.png', 'img7.png', 'img8.png', 'img9.png', 'img10.png']
+imgs = ['img1.png', 'img2.png', 'img3.png', 'img4.png', 'img5.png', 'img6.png', 'img7.png', 'img8.png', 'img9.png', 'img10.png']
 
 zippedlist = list(zip(stim_n,imgs))
 print(zippedlist) 
