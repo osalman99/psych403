@@ -30,8 +30,6 @@ if not os.path.isdir(image_direc):
     raise Exception("Could not find the path!")
 if not os.path.isdir(data_direc):
     raise Exception("Could not find the path!")
-if not os.path.isdir(image_direc): 
-    raise Exception('Could not find the path!') 
 
 #=====================
 #COLLECT PARTICIPANT INFO
