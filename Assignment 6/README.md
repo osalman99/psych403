@@ -1,6 +1,6 @@
 My assignment is in main.py
 
-I added my comments here to be easly read. 
+I added my comments here to be easily read. 
 
 #Monitor and window exercises
 #1. We can specify the units of the stimulus that is drawn on the window (the valuse include cm, pix, non, etc.). The size of the wiindow is in the form (x, y) and in pixels.
