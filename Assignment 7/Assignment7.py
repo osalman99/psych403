@@ -33,9 +33,9 @@ win.flip()
 core.wait(2)
 
 # Clock exercises ===================================================
-#1. core.wait is consistantly precise to the seconded decimal place.
-#2. Using the clock + while loop, is more precise than using core.wait; with accuracy to the third decimal place.
-#3. CountdonTimer + while loop, is as precise as clock + while loop; with accuracy to the tird decimal place.
+# 1. core.wait is consistantly precise to the seconded decimal place.
+# 2. Using the clock + while loop, is more precise than using core.wait; with accuracy to the third decimal place.
+# 3. CountdonTimer + while loop, is as precise as clock + while loop; with accuracy to the tird decimal place.
 
 """Question. 1"""
 nTrials = 3
