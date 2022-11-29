@@ -193,3 +193,11 @@ with open('savejson_example_block0.txt') as json_file:
         else:
             pass
     print(analysis_list)
+    
+    #3. 
+    for i in data:
+        if i["sub_resp"] == 0:
+            pass
+        else:
+            analysis_list.append(i)
+    print(analysis_list)
