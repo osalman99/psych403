@@ -1,7 +1,8 @@
-Hello and welcome to my experiment folder. I hope you enjoy the experiment. 
-The is named Blindspotexperiment.py
+Hello and welcome to my experiment folder. I hope you enjoy the experiment, it is named Blindspotexperiment.py.
+
 This is a blind-spot experiment, which is a monocular vision test that finds and visualizes your blind spot. The blind-spot is a result of the anatomical structure of the eye.The whole retina has photoreceptor cells (i.e., rods and cones). However, where the optic nerve and the retina meet, there is a small area that lacks these photoreceptor cells, and is called the optic disk. Thus, the lack of photoreceptors at the optic disk is responsible for this monocular phenomena. For a variety of reasons including the fact that humans have binocular vision, the blind-spot is not noticed in normal circumstances. This experiment is a fun way to experience the blind spot. It highlights how our brain influences our visual experience, and that vision is a perceptual process (i.e., the brain interprets incoming sensory information).
 The experiment will produce multiple dot stimuli, some that are targeted to fall on a region of the monitor to try and evade your sight. 
 When the experiment begins you will be prompted to fill in you information, and you will be further prompted/explained what to do at each step. The stimulus is a flickering white dot, that is displayed for 2 secondes before it moves; if you see the dot you should press the spacebar. You have a drop down menue to select the number of times you want the dot stimulus to be presented to you (i.e., 60, 80, and 100 times) per eye. 
 I saved the hits and misses of the dot stimuli in a csv file, the file is named based off of the subject number. I also attached a screenshot of my visualized blind-spot, which you will recieve at the end of your experiment.
-- Omar Salman
+
+Omar Salman
